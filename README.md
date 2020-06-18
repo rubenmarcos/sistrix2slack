@@ -24,6 +24,7 @@ Apart from that an historical record is kept on a Google Spreadsheets document, 
 
 ## - How does it work?:
 - Get your API key from Sistrix, look at the instructions and create some URLs in order to make available the data you need (can use the browser as a test area for the URLs).
-- Create a Google Spreadsheets document and name the main tab with a recognisable title (you will use it on the script).
+- Create a Google Spreadsheets document and name the main tab with a recognisable title (you will use it on the script). Get a token for the googlesheets library and store it on your computer, if you don't .
 - Install slackr, configure your environment (https://cran.r-project.org/web/packages/slackr/slackr.pdf) and make some tests before launching the script.
 - Create a private channel on Slack for this data -you can also send it to other existing channels, but I warn you... at some point someone will complain of getting too many messages- and provide access to the users you consider will require this information.
+- Automate the task the way you prefer (cronR on RStudio Server is my favourite way).
