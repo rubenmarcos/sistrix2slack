@@ -76,3 +76,5 @@ mobile_tech <- paste0("* ","Mobile - Tech: *",visibility_sheet$`Tech - Mobile`[2
 
 # Paste all the strings on a single message and send it to any Slack channel (create the channel first)
 slackr_msg(paste(date,desktop_general,mobile_general,desktop_tech,mobile_tech,sep="\n"), channel = "#sistrix")
+
+# DON´T FORGET TO SCHEDULE THE EXECUTION OF THIS FILE IN ORDER TO RECEIVE AUTOMATED UPDATES
